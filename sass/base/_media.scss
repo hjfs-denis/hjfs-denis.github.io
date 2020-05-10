@@ -198,6 +198,19 @@
     }
   }
 
+  @media (max-width: 800px) {
+    .section-service {
+        height: 210vh !important;
+    }
+  }
+
+  @media (max-width: 450px) {
+    .section-service {
+        height: 275vh !important;
+    }
+  }
+
+
   @media (max-width: 400px) {
 
     .heading-secondary {
@@ -207,6 +220,12 @@
     .section-service {
         padding: 5rem 0 !important;
         height: 330vh !important;
+    }
+  }
+
+  @media (max-width: 380px) {
+    .section-service {
+        height: 310vh !important;
     }
   }
 
@@ -220,6 +239,10 @@
     header .navbar ul li {
         margin-left: 1.5rem !important;
       }
+
+      .section-service {
+        height: 360vh !important;
+    }
   }
 
 
