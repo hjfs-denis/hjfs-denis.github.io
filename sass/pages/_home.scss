@@ -1,0 +1,41 @@
+.section-about {
+  //background-color: $color-grey-light-1;
+  background-color: $color-white;
+  padding: 8rem 0;
+  //margin-top: -20vh;
+  
+
+ //clip-path: polygon(0 20%, 100% 0, 100% 80vh, 0 100%);
+}
+
+
+.section-service {
+  background-color: $color-grey-light-1;
+  padding: 8rem 0;
+ // margin-top: -20vh;
+ height: 115vh;
+
+ //clip-path: polygon(0 20%, 100% 0, 100% 80vh, 0 100%);
+ 
+}
+
+.section-tours {
+  background-color: $color-grey-light-1;
+  padding: 8rem  15rem;
+}
+
+.section-contact {
+//  background-color: black;
+  padding: 8rem 8rem;
+  color: grey;
+  font-size: 1.6rem;
+}
+
+.section-footer {
+  background-color: black;
+  border-top: 1px solid white;
+  padding: 3rem;
+  color: whitesmoke;
+  font-size: 1.6rem;
+  text-align: center;
+}

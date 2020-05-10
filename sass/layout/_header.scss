@@ -1,0 +1,118 @@
+header {
+  flex: 0 0 100%;
+  max-width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid white;
+  padding: 0 1.5rem;
+  z-index: 11;
+}
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+header .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .brand-name a {
+  text-decoration: none;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: white;
+  
+}
+
+header .brand-name a img {
+  height: 3rem;
+}
+
+header .navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header .navbar ul li {
+  display: inline-block;
+  margin-left: 3.5rem;
+}
+
+
+header .navbar ul li a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  line-height: 10rem;
+  color: white;
+  display: block;
+  font-weight: 600;
+  position: relative;
+}
+
+header .navbar ul li a::before {
+  content: "";
+  height: 0.3rem;
+  background-color: white;
+  width: 0%;
+  position: absolute;
+  right: 0;
+  bottom: -0.1rem;
+  transition: all .5s ease-in-out;
+}
+
+header .navbar ul li a:hover::before {
+  width: 100%;
+  left: 0;
+}
+
+
+.header {
+    height: 95vh;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-orange, 0.8),
+        rgba($color-warning, 0.8)
+      ),
+      url(../img/church.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    transition: all .5s ease;
+  
+    //clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  
+    & .logo-box {
+      position: absolute;
+      top: 4rem;
+      left: 4rem;
+    }
+  
+    & .logo {
+      height: 3.5rem;
+    }
+  
+    & .text-box {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+
+    & .arrow {
+        position: absolute;
+        top: 80%;
+        left: 48%;
+        animation-name: moveInBottom;
+        animation-duration: 1s;
+        animation-timing-function: ease-out;
+    }
+  }
+  

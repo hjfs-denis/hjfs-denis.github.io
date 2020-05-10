@@ -1,0 +1,89 @@
+.btn {
+  &:link,
+  &:visited {
+    text-decoration: none;
+    text-transform: uppercase;
+    height: 6rem;
+    width: 6rem;
+    display: inline-block;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+    position: relative;
+    font-size: 3rem;
+    font-weight: 900;
+    border: .15rem solid $color-white;
+    text-align: center;
+  }
+
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 2rem rgba($color-dark, 0.2);
+    background-color:$color-white;
+    color: $color-orange;
+    border: .1rem solid $color-orange;
+  }
+
+  &:active {
+    transform: translateY(-1px);
+    box-shadow: 0 0.5rem 1rem rgba($color-dark, 0.2);
+  }
+
+  &-white {
+    background-color: transparent;
+    color: $color-white;
+  }
+}
+
+.fa {
+  background-color: $color-white;
+    color: $color-grey-dark;
+}
+
+.btn-std {
+  &:link,
+  &:visited {
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 3rem;
+    padding: 1.5rem 4rem;
+    transition: all 0.2s ease;
+    background-color: $color-orange;
+    color: $color-white;
+    position: relative;
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
+
+
+  &:hover {
+    // transform: translateY(-3px);
+    // box-shadow: 0 1rem 2rem rgba($color-dark, 0.2);
+    background-color: transparent;
+    border: .15rem solid $color-orange;
+    color: $color-grey-dark;
+  }
+
+}
+
+.btn-white1 {
+  color: white;
+}
+
+.btn-white {
+  background-color: white;
+  padding: 1.5rem 2rem;
+  color: lightgray;
+  border-radius: 100px;
+  font-size: 1.6rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+}
+
+.btn-white:hover {
+  background-color: transparent;
+  border: .15rem solid white;
+  color: white;
+}

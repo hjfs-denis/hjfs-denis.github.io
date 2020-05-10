@@ -1,0 +1,226 @@
+@media (max-width: 1500px) {
+    .box {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+
+        // About Section
+        .section-about {
+            padding: 8rem 2rem !important;
+            text-align: center !important;
+        }
+    
+        .section-about .content {
+            padding: 4rem 2rem;
+        }
+    
+        .section-about .video {
+            padding-top: 4rem;
+            padding-bottom: 0rem;
+        }
+
+
+            // Contact Section
+    .section-contact {
+        padding: 5rem 2rem !important;
+    }
+
+    .section-contact .contact {
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    .section-contact .contact .box .map-part {
+        margin-bottom: 4rem;
+    }
+}
+
+  @media (max-width: 1000px) {
+
+    body {
+        padding: 0rem;
+    }
+
+    iframe {
+        width: 620px;
+        height: 480px;
+    }
+
+    // Header Section
+    .header {
+        height: 100vh !important;
+    }
+
+    .header .text-box {
+        top: 40% !important;
+        left: 0 !important;
+        right: 0;
+        transform: translate(0%) !important;
+        
+    }
+
+
+    // Section Service
+    .section-service {
+        padding: 5rem 0 !important;
+        height: 310vh !important;
+    }
+    
+
+    // Footer Section
+    .section-footer {
+        font-size: 1.6rem !important;
+        font-weight: 300 !important;
+    }
+
+
+  }
+
+  @media (max-width: 700px) {
+
+    iframe {
+        width: 450px;
+        height: 380px;
+    }
+
+    .header .text-box .primary-heading .ph-main {
+        font-size: 3.5rem;
+    }
+
+    .header .text-box .primary-heading .ph-sub {
+        font-size: 2rem;
+        letter-spacing: .4rem;
+        font-weight: 300;
+    }
+
+  }
+
+
+@media (max-width: 500px) {
+
+    body {
+        padding: 0rem;
+    }
+
+    .box {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+
+    iframe {
+        width: 320px;
+        height: 320px;
+    }
+
+    // Navbar Section
+    .brand-name {
+        opacity: 0;
+        margin-top: -5rem;
+        margin-bottom: -2rem;
+        margin-left: 0 !important;
+    }
+
+    .arrow {
+        left: 0% !important;
+
+        padding:0 42% !important;
+    }
+
+    header .navbar ul li {
+        margin-left: 2.2rem !important;
+    }
+    
+    header .navbar ul li a {
+    font-size: 1.5rem !important;
+    line-height: 7rem !important;
+    font-weight: 500 !important;
+    }
+
+    // Header Section
+    .header {
+        height: 100vh !important;
+    }
+
+    .header .text-box {
+        top: 40% !important;
+        left: 0 !important;
+        right: 0;
+        transform: translate(0%) !important;
+        
+    }
+
+    .header .text-box .primary-heading .ph-main {
+        font-size: 2.5rem;
+    }
+
+    .header .text-box .primary-heading .ph-sub {
+        font-size: 1.5rem;
+        letter-spacing: .3rem;
+        font-weight: 300;
+    }
+
+    // About Section
+    .section-about {
+        padding: 6rem 2rem !important;
+        text-align: center !important;
+    }
+
+    .section-about .content {
+        padding: 4rem 2rem;
+    }
+
+    .section-about .video {
+        padding-top: 4rem;
+        padding-bottom: 0rem;
+    }
+
+    // Contact Section
+    .section-contact {
+        padding: 6rem 2rem !important;
+    }
+
+    .section-contact .contact {
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    .section-contact .contact .box .map-part {
+        margin-bottom: 4rem;
+    }
+    
+
+    // Footer Section
+    .section-footer {
+        font-size: 1.2rem !important;
+        font-weight: 300 !important;
+    }
+  }
+
+  @media (max-width: 400px) {
+
+    .heading-secondary {
+        font-size: 2.5rem !important;
+    }
+
+    .section-service {
+        padding: 5rem 0 !important;
+        height: 330vh !important;
+    }
+  }
+
+
+  @media (max-width: 350px) {
+    iframe {
+        width: 280px;
+        height: 280px;
+    }
+
+    header .navbar ul li {
+        margin-left: 1.5rem !important;
+      }
+  }
+
+
+
